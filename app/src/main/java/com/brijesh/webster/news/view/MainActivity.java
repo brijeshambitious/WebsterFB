@@ -920,6 +920,7 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
     protected void onResume() {
         super.onResume();
 
+        
 
         if(listState!=null){
             recyclerView.getLayoutManager().onRestoreInstanceState(listState);
